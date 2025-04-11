@@ -51,6 +51,8 @@ local Button = Section:AddButton({
 	["Icon"] = "rbxassetid://16932740082",
 	["Callback"] = function()
 		print("Button Clicked!")
+		-- Teleport the player to the specified coordinates
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(203, 16, 152)
 	end
 })
 local Slider = Section:AddSlider({
