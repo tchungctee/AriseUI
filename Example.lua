@@ -1,4 +1,4 @@
-local FlurioreFixLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/Ui-FlurioreLib/refs/heads/main/FlurioreLibFix.lua"))()
+local FlurioreFixLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tchungctee/AriseUI/blob/main/FlurioreLibFix.lua"))()
 local Notify = FlurioreFixLib:MakeNotify({
 	["Title"] = "Fluriore UI",
 	["Description"] = "Notification",
